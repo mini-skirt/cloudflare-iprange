@@ -1,0 +1,16 @@
+{
+    "name": "mini-skirt/cloudflare-iprange",
+    "type": "library",
+    "version": "1.0.0",
+    "description": "Cloudflare IP range related helper library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MiniSkirt\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7",
+        "wikimedia/ip-set": "^3.0"
+    }
+}
